@@ -1,0 +1,28 @@
+++++++++++++++++++++++++++++++++++++++++++++++++
+	Starting with Git
+++++++++++++++++++++++++++++++++++++++++++++++++
+1. Configure the Git using the following commands:
+	..git config user.name "USER NAME"
+	..git config user.email EMAIL-ID
+
+2. Initialize Git to the folder to be checked in using
+	..git init
+
+3. Perform staging when doing it for the first time
+	..git add * (* to include all the files or specify the path of the file explictly)
+
+4. Get the status of the files addes using the command
+	..git status
+
+5. Commit the changes made using the following command
+	..git commit -m "COMMIT_MESSAGE"
+
+6. Link the respository with the local git repo using the command (For first time credentials will be asked)
+	..git remote add origin WEB_ADDRESS_OF_REPOSITORY
+
+7. Push to Github
+	..git push origin master 
+
+++++++++++++++++++++++++++++++++++++++++++++++
+
+**Staging - It is the first commit where you add the files for the first time to be committed.
